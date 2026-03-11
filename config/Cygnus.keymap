@@ -17,9 +17,59 @@
     combos {
         compatible = "zmk,combos";
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <18 13>;
+        };
+
+        kasoumigi {
+            bindings = <&kp RC(RIGHT)>;
+            key-positions = <18 19 20 21>;
+        };
+
+        kasouhidari {
+            bindings = <&kp RC(LEFT_ARROW)>;
+            key-positions = <13 12 11 10>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <21 10>;
+        };
+
+        madomigisita {
+            bindings = <&kp RC(RA(K))>;
+            key-positions = <30 31>;
+        };
+
+        madohidarisita {
+            bindings = <&kp RC(RA(J))>;
+            key-positions = <24 25>;
+        };
+
+        madomigiue {
+            bindings = <&kp RC(RA(I))>;
+            key-positions = <18 19>;
+        };
+
+        madohidariue {
+            bindings = <&kp RC(RA(U))>;
+            key-positions = <13 12>;
+        };
+
+        madomigi {
+            bindings = <&kp RC(RA(RIGHT_ARROW))>;
+            key-positions = <19 20>;
+        };
+
+        madohidari {
+            bindings = <&kp RC(RA(LEFT_ARROW))>;
+            key-positions = <11 12>;
+        };
+
+        madozengamen {
+            bindings = <&kp RC(RA(ENTER))>;
+            key-positions = <18 20 19>;
         };
     };
 
