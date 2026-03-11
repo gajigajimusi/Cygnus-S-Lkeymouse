@@ -44,7 +44,7 @@
 
         madohidarisita {
             bindings = <&kp RC(RA(J))>;
-            key-positions = <24 25>;
+            key-positions = <29 30>;
         };
 
         madomigiue {
