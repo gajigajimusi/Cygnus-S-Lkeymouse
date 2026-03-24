@@ -125,10 +125,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans          &kp UP_ARROW    &trans           &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &mkp MB4        &mkp MB5         &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans           &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW     &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mkp MB4        &mkp MB5         &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans           &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&rotate>;
@@ -136,10 +136,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &trans                                    &trans           &kp LG(MINUS)  &kp LG(PLUS)  &kp DOWN_ARROW  &kp UP_ARROW
-&trans  &trans  &trans          &kp LG(C)     &kp LG(V)  &kp LG(X)      &kp LG(TAB)     &mkp MB3         &mkp MB1       &mkp MB2      &lt 5 L         &lt 5 SPACE
-&trans  &trans  &trans          &kp LG(Z)     &trans     &trans         &kp LEFT_ARROW  &kp RIGHT_ARROW  &mkp MB4       &mkp MB5      &trans          &trans
-&trans  &trans  &trans          &trans        &trans     &trans         &trans          &trans                                                        &trans
+&trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW          &trans                                               &trans           &kp LG(MINUS)  &kp LG(PLUS)  &kp DOWN_ARROW  &kp UP_ARROW
+&trans  &trans  &trans          &kp LG(C)             &kp LG(V)             &kp LG(X)      &kp LG(TAB)     &mkp MB3         &mkp MB1       &mkp MB2      &lt 5 L         &lt 5 SPACE
+&trans  &trans  &trans          &kp LG(Z)             &trans                &trans         &kp LEFT_ARROW  &kp RIGHT_ARROW  &mkp MB4       &mkp MB5      &trans          &trans
+&trans  &trans  &trans          &kp LG(LS(NUMBER_4))  &kp LG(LS(NUMBER_3))  &trans         &trans          &trans                                                        &trans
             >;
 
             sensor-bindings = <&rotate>;
