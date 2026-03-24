@@ -37,39 +37,24 @@
             key-positions = <21 10>;
         };
 
-        madomigisita {
-            bindings = <&kp RC(RA(K))>;
-            key-positions = <30 31>;
+        sukusyo {
+            bindings = <&none>;
+            key-positions = <37 41>;
         };
 
-        madohidarisita {
-            bindings = <&kp RC(RA(J))>;
-            key-positions = <29 30>;
+        Apuriitiran {
+            bindings = <&kp LG(LC(J))>;
+            key-positions = <41 18>;
         };
 
-        madomigiue {
-            bindings = <&kp RC(RA(I))>;
-            key-positions = <18 19>;
+        alfled {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <17 14>;
         };
 
-        madohidariue {
-            bindings = <&kp RC(RA(U))>;
-            key-positions = <17 18>;
-        };
-
-        madomigi {
-            bindings = <&kp RC(RA(RIGHT_ARROW))>;
-            key-positions = <19 20 18>;
-        };
-
-        madohidari {
-            bindings = <&kp RC(RA(LEFT_ARROW))>;
-            key-positions = <17 18 19>;
-        };
-
-        madozengamen {
-            bindings = <&kp RC(RA(ENTER))>;
-            key-positions = <30 31 32>;
+        numreiya-modoru {
+            bindings = <&lt 2 LG(Z)>;
+            key-positions = <12 13>;
         };
     };
 
@@ -110,7 +95,7 @@
 &kp Q             &kp W         &kp E             &kp R      &kp T                                                        &kp Y          &kp U  &kp I      &kp O       &kp P
 &lt 5 A           &lt 4 S       &kp D             &kp F      &kp G        &kp KP_ENTER                       &kp AT_SIGN  &kp H          &kp J  &kp K      &lt 5 L     &lt 4 RET
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V      &kp B        &lt 6 F7                           &lt 6 EXCL   &kp N          &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT QMARK
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp MINUS    &kp BACKSPACE                                &kp ESC
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &lt 3 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp MINUS    &kp BACKSPACE                                &kp ESC
             >;
 
             sensor-bindings = <&rotate>;
@@ -140,10 +125,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)      &trans                       &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &mkp MB4        &mkp MB5         &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &trans           &trans   &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&rotate>;
@@ -151,10 +136,10 @@
 
         MOUSE {
             bindings = <
-&trans       &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LG(R)                               &kp LG(R)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans   &trans
-&lt 5 SPACE  &trans  &mkp MB1         &mkp MB2           &mkp MB3   &trans        &kp LC(LS(W))  &mkp MB3   &mkp MB1         &mkp MB2           &lt 5 L  &lt 5 SPACE
-&trans       &trans  &mkp MB4         &mkp MB5           &trans     &mkp MB2      &trans         &trans     &mkp MB4         &mkp MB5           &trans   &trans
-&trans       &trans  &trans           &trans             &trans     &trans        &trans         &trans                                                  &trans
+&trans       &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LG(R)                                &kp LG(R)  &kp LC(LS(MINUS))  &kp LG(PLUS)  &trans   &trans
+&lt 5 SPACE  &trans  &mkp MB1         &kp LG(C)          &kp LG(V)  &kp LG(X)      &kp LC(LS(W))  &mkp MB3   &mkp MB1           &mkp MB2      &lt 5 L  &lt 5 SPACE
+&trans       &trans  &mkp MB4         &kp LG(Z)          &trans     &mkp MB2       &trans         &trans     &mkp MB4           &mkp MB5      &trans   &trans
+&trans       &trans  &trans           &trans             &trans     &trans         &trans         &trans                                               &trans
             >;
 
             sensor-bindings = <&rotate>;
